@@ -20,8 +20,8 @@ class MainScene(Scene):
         point1 = LabeledDot(MathTex("m_1", color=BLUE)).shift(RIGHT*2)
         point2 = LabeledDot(MathTex("m_2", color = RED)).shift(LEFT*2)
 
-        F1Text = MathTex(r"\vec F_{21}", color=BLUE)
-        F2Text = MathTex(r"\vec F_{12}", color=RED)
+        F1Text = MathTex(r"\vec F_{12}", color=BLUE)
+        F2Text = MathTex(r"\vec F_{21}", color=RED)
 
         F1Text.next_to(F1)
         F2Text.next_to(F2)
